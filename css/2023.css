@@ -1,3 +1,44 @@
+body {
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 h1 {
     color: #ff0000;
+}
+
+span.firstNumberColor {
+    color: #e5c237;
+}
+
+div.songInfo {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0 18px 0 12px;
+}
+
+div.firstNumber {
+    margin: 0 0 8px;
+    vertical-align: top;
+    height: 24px;
+}
+
+li.firstItem {
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+
+a.firstUrl {
+    display: block;
+    position: relative;
+}
+
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
