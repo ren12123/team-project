@@ -1,0 +1,28 @@
+/* #aground-image:url(://pics.prcm.jp/fce5fe2e51cfa/86147562/jpeg/86147562.jpeg); */
+/* width: 10px;
+height: 60p;} */
+
+h1 {
+    text-align: center;
+color: #f4efef;
+
+    text-stroke: 1px #000;
+    -webkit-text-stroke: 1px #000;
+    font-size: 40px !important;
+    color: #fff;
+  }
+.detail{
+    text-align: center;
+}
+p,h3,h4,h2{
+    color: #f4efef;
+}
+body{
+    background: #000000;
+}
+
+h3,h4,h2{
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #cece0a;
+}
