@@ -1,3 +1,89 @@
+body {
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
 h1 {
     color: #ff0000;
+}
+
+ul {
+    list-style: none;
+}
+
+div.ranking_body {
+    max-width: 640px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+span.ranking {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: "Roboto";
+    font-weight: 500;
+    line-height: 25px;
+    vertical-align: top;
+    color: #aaa;
+}
+
+span.firstNumberColor {
+    color: #e5c237;
+}
+
+div.songInfo {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0 18px 0 12px;
+    color: #000000;
+}
+
+div.firstNumber {
+    margin: 0 0 8px;
+    vertical-align: top;
+    height: 24px;
+}
+
+div.song_title {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    margin: -1px 0 0;
+    font-weight: 500;
+}
+
+div.song_artist {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #222;
+}
+
+div.song_tieup {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #aaa;
+    margin: 8px 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+li.firstItem {
+    position: relative;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+
+a.ytUrl {
+    display: block;
+    position: relative;
+    text-decoration-line: none;
+    padding: 12px 30px 12px 44px;
+}
+
+span.secondNumberColor {
+    color: #979797;
 }
