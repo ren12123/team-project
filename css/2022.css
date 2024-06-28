@@ -1,0 +1,9 @@
+.three {
+    display: flex;
+    justify-content: center;
+}
+
+.important {
+    display: flex;
+    flex-direction: row-reverse;
+}
